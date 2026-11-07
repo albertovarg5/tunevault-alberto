@@ -139,3 +139,6 @@ describe('Integration Tests', () => {
         expect(card.innerHTML).toContain("Guns N' Roses");
     });
 });
+test('Branch protection test', () => {
+  expect(1).toBe(2);
+});
